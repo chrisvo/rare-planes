@@ -1,0 +1,13 @@
+torch
+torchvision
+accelerate
+bitsandbytes
+datasets
+gradio
+huggingface_hub
+peft
+protobuf
+sentencepiece
+transformers
+trl
+unsloth

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "military-special-mission",
+      "label": "Military or special mission aircraft",
+      "enabled": true,
+      "match": {
+        "any": [
+          { "type_designator_in": ["A10", "A124", "A225", "A306", "A3ST", "A337", "A342", "A343", "A345", "A346", "B1", "B2", "B52", "B703", "B712", "B721", "B722", "B741", "B742", "B743", "B753", "BLCF", "C5", "C17", "C130", "DC10", "DC3", "DC6", "DC8", "E3", "E6", "F15", "F16", "F18", "F22", "F35", "H47", "H53", "H60", "IL62", "IL76", "KC10", "KC135", "KC46", "L101", "MD11", "P3", "P8", "T38", "U2", "V22"] },
+          { "callsign_prefix_in": ["AF", "RCH", "REACH", "NACHO", "SPUR", "TITAN"] }
+        ]
+      },
+      "cooldown_minutes": 60
+    },
+    {
+      "id": "special-livery-registrations",
+      "label": "Known special livery or notable individual aircraft",
+      "enabled": true,
+      "match": {
+        "registration_in": ["D-ABYN", "A7-BEG", "B-LRJ"]
+      },
+      "cooldown_minutes": 240
+    },
+    {
+      "id": "watchlist-registrations",
+      "label": "User watchlist registrations",
+      "enabled": true,
+      "match": {
+        "registration_in": []
+      },
+      "cooldown_minutes": 120
+    },
+    {
+      "id": "emergency-squawk",
+      "label": "Emergency squawk",
+      "enabled": true,
+      "match": {
+        "squawk_in": ["7500", "7600", "7700"]
+      },
+      "cooldown_minutes": 15
+    }
+  ]
+}

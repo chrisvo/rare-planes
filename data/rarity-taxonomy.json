@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "definition": "Rare aircraft are uncommon, noteworthy, or chase-worthy sightings for plane spotters. Rarity is contextual and can come from low production numbers, end-of-life status, limited operators, special features, geographic infrequency, historical value, or a notable individual airframe.",
+  "factors": [
+    {
+      "id": "low-production-or-end-of-life",
+      "label": "Low production or near end-of-life",
+      "examples": ["A225", "A124", "A3ST", "A337", "BLCF", "DC10", "DC8", "MD11", "B741", "B742", "B743"]
+    },
+    {
+      "id": "limited-operator-or-restricted-access",
+      "label": "Limited operator or restricted access",
+      "examples": ["Air Koryo", "government/VIP aircraft", "military transports", "NASA aircraft", "specialized cargo"]
+    },
+    {
+      "id": "special-feature-or-livery",
+      "label": "Unique design, special livery, or notable frame",
+      "examples": ["Beluga", "Dreamlifter", "D-ABYN", "A7-BEG", "B-LRJ"]
+    },
+    {
+      "id": "geographic-or-operational-infrequency",
+      "label": "Rare visitor for the local area or airport",
+      "examples": ["heavy aircraft at regional fields", "test aircraft", "prototype aircraft", "doomsday aircraft"]
+    },
+    {
+      "id": "historical-or-wow-value",
+      "label": "Historical, iconic, endangered, or high-wow aircraft",
+      "examples": ["warbirds", "Blériot XI replicas", "Convair 5800", "classic trijets", "remaining 757-300 operators"]
+    }
+  ],
+  "not_universally_rare": [
+    "Everyday A320-family aircraft at major hubs unless special-livery, unusual-operator, geographically unusual, or otherwise notable.",
+    "Everyday 737-family aircraft at major hubs unless special-livery, unusual-operator, geographically unusual, or otherwise notable.",
+    "Normal Boeing 747-400 or 747-8 cargo flow, including routine Kalitta-style traffic, unless special-livery, notable-registration, emergency, unusual-operator, rare-route, or otherwise notable."
+  ],
+  "special_registrations": ["D-ABYN", "A7-BEG", "B-LRJ"],
+  "rare_type_designators": [
+    "A124",
+    "A225",
+    "A3ST",
+    "A337",
+    "A342",
+    "A343",
+    "A345",
+    "A346",
+    "B741",
+    "B742",
+    "B743",
+    "B753",
+    "BLCF",
+    "C5",
+    "C17",
+    "C130",
+    "DC10",
+    "DC3",
+    "DC6",
+    "DC8",
+    "IL62",
+    "IL76",
+    "L101",
+    "MD11",
+    "V22"
+  ]
+}
