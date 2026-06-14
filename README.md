@@ -18,7 +18,7 @@ tags:
 
 # Rare Planes
 
-Dedicated to nephew, Benjamin Vo, plane spotter extraordinaire. Rest in peace, I love you, and I'll always remember you.
+Dedicated to my nephew, Benjamin Vo, plane spotter extraordinaire. Rest in peace, I love you, and I'll always remember you.
 
 <img src="assets/ben.jpg" alt="Benjamin Vo" width="320">
 
